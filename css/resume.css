@@ -56,6 +56,12 @@ p {
 
 /* LAYOUTS */
 
+.flex-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+}
 .flex-center {
     display: flex;
     justify-content: center;
@@ -172,8 +178,8 @@ p {
 
 .header,
 .section {
-    min-height: 850px;
-    padding: 110px;
+    min-height: 500px;
+    padding: 90px;
 }
 
 /* HEADER */
@@ -193,7 +199,7 @@ p {
 .contact .contact-links,
 .header h1 {
     color: var(--black);
-    margin-bottom: 45px;
+    margin-bottom: 20px;
 }
 
 .header .flex-list {
