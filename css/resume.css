@@ -272,6 +272,7 @@ p {
     max-width: 390px;
     padding: 30px;
     margin: 20px auto;
+    position: relative;
 }
 
 .projects .card img {
@@ -295,6 +296,10 @@ p {
 .projects .card .card-buttons {
     display: flex;
     justify-content: space-between;
+    align-items: bottom;
+    position: absolute;
+    bottom: 0;
+
 }
 
 .projects .card .card-buttons .card-button--site,
@@ -325,6 +330,13 @@ p {
     background-color: var(--white);
     color: var(--black);
 }
+/*  Q: How to display the buttons at the bottom of the card?
+    A: margin-bottom: 0px; in .card-buttons
+
+    Q: How to display the buttons at the bottom of the card?
+    A :    
+*/
+
 
 /* === EXPERIENCE === */
 
